@@ -1,0 +1,6 @@
+{ ... }:
+{
+  programs.poetry = {
+    enable = true;
+  };
+}

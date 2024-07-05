@@ -1,0 +1,32 @@
+/* Hide the "List all tabs" button */
+#alltabs-button {
+  display: none !important;
+}
+/* Hide extensions button */
+/* #unified-extensions-button {
+  width: 3px;
+  padding-inline: 0 !important;
+}
+#unified-extensions-button .toolbarbutton-icon {
+  width: 0 !important;
+} */
+
+#nav-bar toolbarspring {
+  display: none !important;
+}
+
+#firefox-view-button {
+  display: none !important;
+}
+
+#save-to-pocket-button {
+  display: none !important;
+}
+
+#fxa-toolbar-menu-button {
+  display: none !important;
+}
+
+#import-button {
+  display: none !important;
+}

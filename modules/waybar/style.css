@@ -1,0 +1,32 @@
+* {
+  border: none;
+  color: @text;
+  font-family: "CaskaydiaCove NF";
+  font-size: 14px;
+}
+window#waybar {
+  background-color: @crust;
+  color: @text;
+}
+
+#workspaces button.focused {
+  background-color: @surface0;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+  padding: 0 8px;
+  margin: 6px 3px;
+  color: @text;
+}
